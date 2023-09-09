@@ -1,4 +1,4 @@
-# Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit
+# Exp-03-Implementation-of-Half-Adder-and-Full-Adder-circuit
 
 # Implementation-of-Half-Adder-and-Full-Adder-circuit
 ### AIM:
@@ -64,16 +64,20 @@ endmodule
 
 ## Truth Table
 HALF ADDER:
+
 ![image](https://github.com/Safeeq-Fazil/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/118680361/9b4a71eb-8d15-4ecd-b42f-38f3636c6e1b)
 
 FULL ADDER:
+
 ![image](https://github.com/Safeeq-Fazil/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/118680361/629eae2f-49e4-45c9-883a-42305ca95f2c)
 
 ## RTL
 HALF ADDER
+
 ![image](https://github.com/Safeeq-Fazil/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/118680361/d8ac11fc-a13f-4ca7-afb5-5010992a3a99)
 
 FULL ADDER
+
 ![image](https://github.com/Safeeq-Fazil/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/118680361/2f67b3a2-4ccf-4d82-94c9-39429db27018)
 
 ## OUTPUT:

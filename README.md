@@ -36,19 +36,55 @@ Switch ON the main switch
 If the output is 1, then the led glows.
 ### 
 Program:
-/*
+```
 Program to design a half adder and full adder circuit and verify its truth table in quartus using Verilog programming.
-Developed by: 
-RegisterNumber:  
-*/
-Logic symbol & Truthtable
-RTL realization
+Developed by: Safeeq Fazil.A
+RegisterNumber: 212222240086
 
-### Output:
-### RTL
-### TIMING DIAGRAM
+1. Program to design a half adder:
 
+module ex3(a,b,sum,carry);
+input a,b;
+output sum,carry;
+assign sum=a^b;
+assign carry=a&b;
+endmodule 
 
-### TRUTH TABLE 
+2. Program to design a full adder:
+
+module ex31(a,b,cin,sum,carry);
+input a,b,cin;
+output sum,carry;
+assign sum=a^b^cin;
+assign carry=(a&b)|((a^b)&cin);
+endmodule
+
+```
+## Logic symbol & Truthtable
+
+## Truth Table
+HALF ADDER:
+![image](https://github.com/Safeeq-Fazil/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/118680361/9b4a71eb-8d15-4ecd-b42f-38f3636c6e1b)
+
+FULL ADDER:
+![image](https://github.com/Safeeq-Fazil/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/118680361/629eae2f-49e4-45c9-883a-42305ca95f2c)
+
+## RTL
+HALF ADDER
+![image](https://github.com/Safeeq-Fazil/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/118680361/d8ac11fc-a13f-4ca7-afb5-5010992a3a99)
+
+FULL ADDER
+![image](https://github.com/Safeeq-Fazil/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/118680361/2f67b3a2-4ccf-4d82-94c9-39429db27018)
+
+## OUTPUT:
+
+HALF ADDER
+
+![image](https://github.com/Safeeq-Fazil/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/118680361/5357d606-086d-4bc6-a757-2f6e15881137)
+
+FULL ADDER
+
+![image](https://github.com/Safeeq-Fazil/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/118680361/41b25b21-d2ef-4ff0-b67d-dca564172dd8)
 
 ### Result:
+Thus the half adder and full adder circuit are designed and the truth table for half adder and full adder are verified.
